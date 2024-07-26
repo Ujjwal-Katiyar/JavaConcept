@@ -78,6 +78,7 @@ public class OptionalPractice {
 		String s = op.orElse("rphit");
 		System.out.println(s);
 		op.orElseGet(UserService::print);
+		
 	}
 
 }
